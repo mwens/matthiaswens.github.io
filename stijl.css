@@ -254,7 +254,7 @@ p {
 }
 
 .popup {
-    position:absolute;
+    position:fixed;
     z-index:2;
     top:0;
     left:0;
@@ -273,9 +273,10 @@ p {
 
 .popup > iframe {
     position:absolute;
-    top:50px;
-    left:50%;
-    margin-left:-280px;
+    top:15%;
+    left:15%;
+    width: 70%;
+    height: 70%;
 }
 
 
