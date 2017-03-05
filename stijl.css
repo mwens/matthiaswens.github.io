@@ -1,0 +1,433 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    transition: 0.3s;
+    width: 100%;
+    text-align: center;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+}
+
+.container2 {
+    text-align: center;
+    padding: 30px 30px;
+}
+
+.avatar {
+    position: relative;
+    top: 20px;
+    width: 50%;
+    border-radius: 50%;
+}
+
+.quote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+.quote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+.quote:after {
+  color: #ccc;
+  content: close-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-left: 0.25em;
+  vertical-align: -0.4em;
+}
+
+.quote p {
+  display: inline;
+}
+
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  background-color: #353535;
+  color: #777;
+}
+
+.social {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 100;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 80%;
+
+}
+
+
+.bgimg-1 {
+  background-image: url("bg1.jpg");
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url("bg2.jpg");
+}
+
+.bgimg-3 {
+  background-image: url("bg3.jpg");
+}
+
+.bgimg-4 {
+  background-image: url("bg4.jpg");
+}
+
+.bgimg-5 {
+  background-image: url("bg5.jpg");
+}
+
+.bgimg-6 {
+  background-image: url("bg6.png");
+}
+
+.bgimg-7 {
+  background-image: url("bg6.jpg");
+  min-height: 100%;
+}
+
+.tabel{
+    width: 30%;
+    position: relative;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+
+.ed {
+    margin: auto;
+    width: 75%;
+    position: relative;
+}
+
+.witlijn{
+    height: 50px;
+}
+
+
+img.profiel {
+    position: relative;
+    border-radius: 50%;
+    width: 25%;
+}
+
+img.icon {
+    position: relative;
+    border-radius: 50%;
+    width: 15%;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+.caption span.under {
+  background-color: #111;
+  color: #fff;
+  padding: 16px;
+  position: relative;
+  top: 5px;
+  font-size: 20px;
+  letter-spacing: 10px;
+}
+
+
+.container {
+    width: 100%;
+    padding-right: 10px;
+    background-color: #ddd;
+}
+
+.skills {
+    text-align: right;
+    padding-right: 10px;
+    line-height: 20px;
+    color: white;
+}
+
+#hash {
+    padding-left: 3%;
+    width: 75%;
+}
+
+ul {
+    padding-left: 4%; 
+}
+
+.hobbies {
+    padding-left: 3%;
+    width: 75%;
+}
+
+.python {width: 95%; background-color: #ff0000;opacity: 0.7;}
+.java {width: 90%; background-color: #0071fc;opacity: 0.7;}
+.sql {width: 70%; background-color: #d600fc;opacity: 0.7;}
+.c {width: 75%; background-color: #00fc10;opacity: 0.7;}
+
+
+.fa {
+    padding: 20px;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    width: 17px;
+    height: 17px;
+}
+
+.fa-linkedin {
+    background-color: #007bb5;
+    color: white;
+    font-size: 20em;
+}
+.fa-github {
+    background-color: #282828;
+    color: white;
+    font-size: 20em;
+}
+
+.fa-google-plus {
+    background-color:#bc0000;
+    color: white;
+    font-size: 20em;
+}
+
+.fa-envelope {
+    background-color:#000000;
+    color: white;
+    font-size: 20em;
+}
+
+.tekst{
+    color: #777;
+    background-color:white;
+    text-align:center;
+    padding:50px 80px;
+    text-align: justify;
+    position:relative;
+}
+
+.verkl {
+    font-style: italic; 
+    font-size: 11pt;
+}
+
+
+
+@media only screen and (max-device-width: 1024px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+
+    body, html {
+        height: 100%;
+        margin: 0;
+        font: 400 8px/1.8 "Lato", sans-serif;
+        background-color: #353535;
+        color: #777;
+    }
+
+    .tekst{
+        color: #777;
+        background-color:white;
+        text-align:center;
+        padding:20px;
+        text-align: justify;
+    }  
+
+    .tabel{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    h3 {
+      font: 14px "Lato", sans-serif;
+    }
+
+    h4 {
+      font-size: 10pt;
+    }
+
+
+    .ed {
+        width: 100%;
+        font-size: 6px;
+    }
+
+    .ed th {
+        width: 70%;
+    }
+
+    .ed td {
+        width: 30%;
+    }
+
+    .witlijn{
+        height: 10px;
+    }
+
+    .caption {
+      position: absolute;
+      left: 0;
+      top: 25%;
+      width: 100%;
+      text-align: center;
+      color: #000;
+    }
+
+    .caption span.border {
+      background-color: #111;
+      color: #fff;
+      padding: 18px;
+      font-size: 16px;
+      letter-spacing: 10px;
+    }
+
+    .caption span.under {
+      background-color: #111;
+      color: #fff;
+      padding: 16px;
+      position: relative;
+      top: 5px;
+      font-size: 14px;
+      letter-spacing: 10px;
+    }
+
+
+    .container {
+        width: 100%;
+        padding-right: 10px;
+        background-color: #ddd;
+    }
+
+    .skills {
+        text-align: right;
+        padding-right: 10px;
+        line-height: 20px;
+        color: white;
+    }
+
+    .hobbies {
+        padding-left: 0%;
+        width: 100%;
+    }
+
+    .fa {
+        width: 5px;
+        height: 5px;
+    }
+
+    #hash {
+        width: 100%;
+        font-size: 6px;
+    }
+
+    #hash th {
+        width: 70%;
+    }
+
+    #hash td {
+        width: 30%;
+    }
+
+    .verkl {
+        font-style: italic; 
+        font-size: 4pt;
+    }
+
+    .hobbies {
+        width: 100%;
+        font-size: 6px;
+    }
+
+    .hobbies th {
+        width: 70%;
+    }
+
+    .hobbies td {
+        width: 30%;
+    }
+
+    .quote {
+      border-left: 5px solid #ccc;
+      margin: 5px 5px;
+      padding: 5px 6px;
+      quotes: "\201C""\201D""\2018""\2019";
+    }
+
+    .quote:before {
+      color: #ccc;
+      content: open-quote;
+      font-size: 2em;
+      line-height: 0.05em;
+      margin-right: 0.125em;
+      vertical-align: -0.2em;
+    }
+
+    .quote:after {
+      color: #ccc;
+      content: close-quote;
+      font-size: 2em;
+      line-height: 0.05em;
+      margin-left: 0.125em;
+      vertical-align: -0.2em;
+    }
+
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+        transition: 0.3s;
+        width: 100%;
+        text-align: center;
+    }
+
+    .container2 {
+        text-align: center;
+        padding: 15px 15px;
+    }
+}
