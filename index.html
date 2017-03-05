@@ -120,7 +120,44 @@
       <th>Coördinator</th><td>2012-2013</td>
     </tr>
     <tr>
-      <td><a href="http://www.schoolrockfestival.be/" style="text-decoration: none">Schoolrock Festival</a> (Reference: <a href="Schoolrock1.pdf" style="text-decoration: none"> 1 </a><a href="Schoolrock2.pdf" style="text-decoration: none"> 2 </a><a href="Schoolrock3.pdf" style="text-decoration: none"> 3 </a>)</td><td>Kontich, Belgium</td>
+      <td><a href="http://www.schoolrockfestival.be/" style="text-decoration: none">Schoolrock Festival</a> (Reference: <a href="Schoolrock1.pdf" style="text-decoration: none"> 1 </a><a href="Schoolrock2.pdf" style="text-decoration: none"> 2 </a><a href="Schoolrock3.pdf" style="text-decoration: none"> 3 </a>)
+
+        <div class="page">
+            <p><a href="#media-popup" data-media="//www.youtube.com/embed/0em6mYZRAfQ">Video</a></p>
+
+            <div class="popup" id="media-popup">
+                <iframe width="854" height="480" src="" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+
+          <script type="text/javascript">
+                  $("[data-media]").on("click", function(e) {
+                  e.preventDefault();
+                  var $this = $(this);
+                  var videoUrl = $this.attr("data-media");
+                  var popup = $this.attr("href");
+                  var $popupIframe = $(popup).find("iframe");
+
+                  $popupIframe.attr("src", videoUrl);
+
+                  $this.closest(".page").addClass("show-popup");
+              });
+
+              $(".popup").on("click", function(e) {
+                  e.preventDefault();
+                  e.stopPropagation();
+
+                  $(".page").removeClass("show-popup");
+              });
+
+              $(".popup > iframe").on("click", function(e) {
+                  e.stopPropagation();
+              });
+          </script>
+
+
+      
+      </td><td>Kontich, Belgium</td>
     </tr>
     <tr>
     <td>
