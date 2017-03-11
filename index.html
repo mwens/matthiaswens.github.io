@@ -12,6 +12,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
   <script type="text/javascript">
     jQuery(document).ready(function(){
       jQuery('.skillbar').each(function(){
@@ -50,13 +51,10 @@
   </div>
 </div>
 
-
-
-
-
 <div class="tekst">
   <h3 id="profiel">Profile</h3>
-  <p>I am an engaged student in Master of Electronics and ICT Engineering Technology at KULeuven. I have an advanced skillset in Python programming and have leadership experiences. I am currently searching for a student job in python or java developing.</p>
+  <table><tr><td>
+  <p style="width: 80%;">I am an engaged student in Master of Electronics and ICT Engineering Technology at KULeuven. I have an advanced skillset in Python programming and have leadership experiences. I am currently searching for a student job in python or java developing.</p>
   <table class="tabel">
     <tr><th>Name:</th><td>Matthias Wens</td></tr>
     <tr><th>Address:</th><td>Staf van elzenlaan 30, 2550 Kontich, Belgium</td></tr>
@@ -67,7 +65,10 @@
     <tr><th>Nationality:</th><td>Belgian</td></tr>
     <tr><th>Gender:</th><td>Male</td></tr>
     <tr><th>Marital Status:</th><td>Single</td></tr>
-  </table><br>
+  </table>
+  </td><td>
+  	<div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="matthiaswens"><a class="LI-simple-link" href='https://be.linkedin.com/in/matthiaswens?trk=profile-badge'>Matthias Wens</a></div>
+  </td></tr></table>
 </div>
 
 
@@ -165,6 +166,7 @@
 
           $(".popup > iframe").on("click", function(e) {
               e.stopPropagation();
+              iframe.stopVideo();
           });
         </script>
 
